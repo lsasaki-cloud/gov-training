@@ -1,0 +1,1 @@
+CREATE VIEW `hr.eu_employees` AS SELECT `employees`.`id`, `employees`.`name`, `employees`.`age`, `employees`.`phone`, `employees`.`email`, `employees`.`dateofbirth`, `employees`.`region`, `employees`.`salary` FROM `hr`.`employees` where `employees`.`region`='EU'

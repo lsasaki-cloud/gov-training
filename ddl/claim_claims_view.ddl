@@ -1,0 +1,1 @@
+CREATE VIEW `claim.claims_view` AS SELECT `claim_savings`.`reportdate`, `claim_savings`.`name`, `claim_savings`.`sequenceid`, `claim_savings`.`claimid`, `claim_savings`.`costsavings`, `claim_savings`.`eligibilitycode`, `claim_savings`.`latitude`, `claim_savings`.`longitude` FROM `cost_savings`.`claim_savings`
